@@ -18,6 +18,12 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
 
 Everytime you want to start the game, run the script instead of using steam directly.
 
+1.Start Windows PowerShell with the "Run as Administrator" option.  
+2 .Enable running unsigned scripts by entering:  
+    ```
+        set-executionpolicy remotesigned
+    ```
+
 ### Copy/Paste method ###
 1. Copy the contents of the PS1 file.
 2. Paste them into a text file.
