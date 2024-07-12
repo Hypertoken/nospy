@@ -16,6 +16,8 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
 
 ## Usage
 
+Everytime you want to start the game, run the script instead of using steam directly.
+
 ### Copy/Paste method ###
 1. Copy the contents of the PS1 file.
 2. Paste them into a text file.
