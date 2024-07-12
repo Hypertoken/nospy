@@ -16,6 +16,13 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
 
 ## Usage
 
+### Copy/Paste method ###
+1. Copy the contents of the PS1 file.
+2. Paste them into a text file.
+3. Rename the text file to your desired name, ensuring you change the file extension from .txt to .ps1
+4. Right-click the newly renamed file and select "Run with PowerShell."
+
+### Git method ###
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/Hypertoken/nospy.git
@@ -27,9 +34,6 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
     ```sh
      & '.\Once Human.ps1'
     ```
-    
-3. **Enjoy**:
-    The script will automatically launch the game if its already installed. Always launch the game using the script.
    
 ## Script Details
 
