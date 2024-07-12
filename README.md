@@ -1,6 +1,6 @@
 # Once Human Spyware Blocker
 
-This script blocks spyware by AppsFlyer when running the game "Once Human." It modifies the Windows registry and hosts file to achieve this. 
+This script blocks spyware by AppsFlyer when running the game "Once Human." It modifies the Windows registry and hosts file to achieve this. It's made to be adaptable to any other steam game with AppsFlyer spyware. Just change the variables; `$gamename`, `$gameUrl`, and `$gameExecutableName`.
 
 ## Features
 
