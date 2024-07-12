@@ -25,7 +25,7 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
 2. **Run the script**:
     Open PowerShell as an administrator and execute the script:
     ```sh
-    ".\Once Human.ps1"
+     & '.\Once Human.ps1'
     ```
 
 ## Script Details
