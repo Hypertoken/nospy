@@ -27,7 +27,10 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
     ```sh
      & '.\Once Human.ps1'
     ```
-
+    
+3. **Enjoy**:
+    The script will automatically launch the game if its already installed. Always launch the game using the script.
+   
 ## Script Details
 
 ### Variables
