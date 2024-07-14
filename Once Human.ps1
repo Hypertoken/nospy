@@ -1,5 +1,5 @@
 # Define if running for Epic Games
-$EPIC = 1
+$EPIC = 0
 # Title of the game
 $gamename = "Once Human"
 # Define the Steam game launch URL
