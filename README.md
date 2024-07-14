@@ -1,6 +1,6 @@
 # Once Human Spyware Blocker
 
-This script blocks spyware by AppsFlyer when running the game "Once Human." It modifies the Windows registry and hosts file to achieve this. It's made to be adaptable to any other steam game with AppsFlyer spyware. Just change the variables; `$gamename`, `$gameUrl`, and `$gameExecutableName`.
+This script blocks spyware by AppsFlyer when running the game "Once Human" via steam. It modifies the Windows registry and hosts file to achieve this. It's made to be adaptable to any other steam game with AppsFlyer spyware. Just change the variables; `$gamename`, `$gameUrl`, and `$gameExecutableName`.
 
 ## Features
 
@@ -13,16 +13,16 @@ This script blocks spyware by AppsFlyer when running the game "Once Human." It m
 
 - Windows operating system.
 - Administrative privileges (the script will prompt for elevation if not run as an administrator).
-
+- Enable PowerShell scripts  
+    1.Start Windows PowerShell with the "Run as Administrator" option.  
+    2 .Enable running unsigned scripts by entering:  
+    ```
+    set-executionpolicy remotesigned
+    ```
 ## Usage
 
-Everytime you want to start the game, run the script instead of using steam directly.
-
-1.Start Windows PowerShell with the "Run as Administrator" option.  
-2 .Enable running unsigned scripts by entering:  
-    ```
-        set-executionpolicy remotesigned
-    ```
+For Steam: Everytime you want to start the game, run the script instead of using steam directly.
+For Epic: Run one time. On line 2, change the variable $EPIC = 0 to $EPIC = 1
 
 ### Copy/Paste method ###
 1. Copy the contents of the PS1 file.
