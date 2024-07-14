@@ -1,5 +1,5 @@
 # Define if running for Epic Games
-$EPIC = 0
+$EPIC = 1
 # Title of the game
 $gamename = "Once Human"
 # Define the Steam game launch URL
@@ -38,7 +38,11 @@ if ($gameUrl -eq "steam://rungameid/2139460") {
 # Check if the script is running with administrative privileges
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")){
     Write-Output "This script requires elevated privileges to execute."
-    Write-Output "Administrative rights are necessary to modify the Windows registry and the host file."
+    if ($EPIC -ne 1) {
+        Write-Output "Administrative rights are necessary to modify the Windows registry and the host file."
+    } else {
+        Write-Output "Administrative rights are necessary to modify the Windows host file."
+    }
     Write-Output "These modifications are needed to block the spyware associated with $gamename."
     Write-Output "Press any key to continue or ESC to cancel and exit..."
     # Wait for user input to continue or cancel
