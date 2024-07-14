@@ -21,7 +21,7 @@ This script blocks spyware by AppsFlyer when running the game "Once Human" via s
     ```
 ## Usage
 
-For Steam: Everytime you want to start the game, run the script instead of using steam directly.
+For Steam: Everytime you want to start the game, run the script instead of using steam directly.  
 For Epic: Run one time. On line 2, change the variable $EPIC = 0 to $EPIC = 1
 
 ### Copy/Paste method ###
